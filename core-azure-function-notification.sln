@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{16CBE561-2FE2-475A-B6EA-F56AD5AECC5C}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker_infrastructure.yml = docker\docker_infrastructure.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E42EBD7-F9FE-495F-AF3E-F3E5AF2FBE5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationFunctions", "src\NotificationFunctions\NotificationFunctions.csproj", "{EE2FDAD8-01A9-4612-B1B0-D2B6CD37AFDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2FDAD8-01A9-4612-B1B0-D2B6CD37AFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2FDAD8-01A9-4612-B1B0-D2B6CD37AFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2FDAD8-01A9-4612-B1B0-D2B6CD37AFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2FDAD8-01A9-4612-B1B0-D2B6CD37AFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE2FDAD8-01A9-4612-B1B0-D2B6CD37AFDA} = {8E42EBD7-F9FE-495F-AF3E-F3E5AF2FBE5B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBC45D9D-5101-41C2-85BF-D94C9C62C467}
+	EndGlobalSection
+EndGlobal
